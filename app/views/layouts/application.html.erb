@@ -13,6 +13,18 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url( <%= image_path 'beach_bar.jpg' %>);">
+        <div class="container">
+          <h1>Aloha Bar</strong>!</h1>
+          <p>The best cocktails in town.</p>
+        </div>
+      </div>
+
+    </header>
+    <div class="container">
+        <%= yield %>
+    </div>
+
   </body>
 </html>

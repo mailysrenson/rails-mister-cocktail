@@ -34,3 +34,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+.env*
+
+CLOUDINARY_URL=cloudinary://617523277781265:CVDdODIADr7JrmepdIWMyTaeGNk@dl51hh1rd
