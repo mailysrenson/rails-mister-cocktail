@@ -3,6 +3,6 @@ class Cocktail < ApplicationRecord
   has_many :ingredients, through: :doses
   has_one_attached :photo
 
-  validates :name, uniqueness: true, presence: true
+  validates :name, :photo, uniqueness: true, presence: true
   accepts_nested_attributes_for :doses
 end
